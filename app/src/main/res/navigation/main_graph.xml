@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.thor.latihancleancode.ui.main.home.HomeFragment"
+        android:name="com.thor.storyapp.ui.main.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -21,16 +21,16 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.thor.latihancleancode.ui.main.detail.DetailFragment"
+        android:name="com.thor.storyapp.ui.main.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="story"
-            app:argType="com.thor.latihancleancode.repository.story.Story" />
+            app:argType="com.thor.storyapp.repository.story.Story" />
     </fragment>
     <fragment
         android:id="@+id/uploadFragment"
-        android:name="com.thor.latihancleancode.ui.main.upload.UploadFragment"
+        android:name="com.thor.storyapp.ui.main.upload.UploadFragment"
         android:label="fragment_upload"
         tools:layout="@layout/fragment_upload" >
         <action

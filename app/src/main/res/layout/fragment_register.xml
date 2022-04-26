@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.auth.register.RegisterFragment">
+    tools:context="com.thor.storyapp.ui.auth.register.RegisterFragment">
     <ImageView
         android:id="@+id/image_anim_register"
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_anim_register">
 
-        <com.thor.latihancleancode.customview.MyEditText
+        <com.thor.storyapp.customview.MyEditText
             android:id="@+id/my_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nameTextInputLayout">
 
-        <com.thor.latihancleancode.customview.MyEditText
+        <com.thor.storyapp.customview.MyEditText
             android:id="@+id/my_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             tools:layout_editor_absoluteY="8dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.thor.latihancleancode.customview.MyEditPasswordLayout
+    <com.thor.storyapp.customview.MyEditPasswordLayout
         android:id="@id/password_text_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_text_input_layout">
 
-        <com.thor.latihancleancode.customview.MyEditPasswordText
+        <com.thor.storyapp.customview.MyEditPasswordText
             android:id="@+id/my_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,10 +96,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent" />
-    </com.thor.latihancleancode.customview.MyEditPasswordLayout>
+    </com.thor.storyapp.customview.MyEditPasswordLayout>
 
 
-    <com.thor.latihancleancode.customview.MyButton
+    <com.thor.storyapp.customview.MyButton
         android:id="@+id/my_btn_register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

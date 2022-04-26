@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.auth.login.LoginFragment">
+    tools:context="com.thor.storyapp.ui.auth.login.LoginFragment">
 
     <ImageView
         android:id="@+id/image_anim_login"
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_anim_login">
 
-        <com.thor.latihancleancode.customview.MyEditText
+        <com.thor.storyapp.customview.MyEditText
             android:id="@+id/my_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
 
 
 
-    <com.thor.latihancleancode.customview.MyEditPasswordLayout
+    <com.thor.storyapp.customview.MyEditPasswordLayout
         android:id="@+id/password_text_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,15 +58,15 @@
         app:layout_constraintTop_toBottomOf="@+id/email_text_input_layout"
         >
 
-        <com.thor.latihancleancode.customview.MyEditPasswordText
+        <com.thor.storyapp.customview.MyEditPasswordText
             android:id="@+id/my_password"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0"
             />
-    </com.thor.latihancleancode.customview.MyEditPasswordLayout>
+    </com.thor.storyapp.customview.MyEditPasswordLayout>
 
-    <com.thor.latihancleancode.customview.MyButton
+    <com.thor.storyapp.customview.MyButton
         android:id="@+id/my_btn_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
